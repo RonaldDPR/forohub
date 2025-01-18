@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(80) NOT NULL,
+  correo_electronico VARCHAR(100) NOT NULL,
+  contrasena VARCHAR(100) NOT NULL,
+  activo TINYINT DEFAULT 1
+);
